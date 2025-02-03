@@ -2,6 +2,7 @@
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://amitcse902.github.io/tic-tac-toe",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -33,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "gh-pages": "^2.2.0"
   }
 }
