@@ -4,6 +4,7 @@ import Player from "./Component/Player";
 import Log from "./Component/Log";
 import GameOver from "./Component/GameOver";
 import { WINNING_COMBINATIONS } from "./winning-combinations";
+import gameLogo from "./assets/img/game-logo.png";
 
 const PLAYERS = {
   X: "Player 1",
@@ -87,6 +88,10 @@ function App() {
 
   return (
     <main>
+      <header>
+        <img src={gameLogo} alt="Hand-Drawn Tic-Tac-Toe Game Board" />
+        <h1>Tic-Tac-Toe</h1>
+      </header>
       <div id="game-container">
         <ol id="players" className="highlight-player">
           <Player
